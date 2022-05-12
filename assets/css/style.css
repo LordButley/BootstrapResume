@@ -20,6 +20,22 @@
 .ui-menu-color-download{
     background-color: #525252;
 }
+h1,
+h2,
+h3,
+h4 {
+    margin:0;
+}
+
+.uppercase{
+    text-transform:uppercase;
+}
+
+.general-sub {
+    font-family:"Oxygen", sans-serif;
+    font-weight: 300;
+    color:#fafafa;
+}
 
 header {
     margin:0;
@@ -63,6 +79,9 @@ header {
     font-size:0;
 }
 
+#nav {
+    margin:0;
+}
 #nav li {
     font-size:14px;
     padding: 0;
@@ -97,4 +116,9 @@ header {
     font-size:14px;
     font-weight: 300;
     letter-spacing:2px;
+}
+
+.hvr-sweep-to-bottom:before{
+    background:rgba(0,0,0,0.2) !important;
+    height:120px;
 }
